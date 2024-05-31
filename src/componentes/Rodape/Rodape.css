@@ -1,0 +1,36 @@
+.rodape {
+  background: url(/public/imagens/fundo.png) #6278f7;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  padding: 32px 0;
+}
+
+.rodape ul {
+  display: flex;
+  gap: 32px;
+}
+
+.rodape ul li {
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.rodape ul li img {
+  width: 32.31px;
+}
+
+.rodape img {
+  width: 166px;
+}
+
+.rodape p {
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+}
